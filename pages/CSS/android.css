@@ -1,0 +1,254 @@
+header{
+	color: white;
+	width: 100%;
+	text-align: center;
+	/*border-radius: 20px;*/
+	font-family: "Lato", sans-serif;
+	font-size: 30px;
+
+}
+body{
+	font-family: "Lato", sans-serif;
+	background-image: url(img/fon.jpg);
+	background-size: contain;
+	background-attachment: fixed;
+}
+.img{
+	margin-top: 200px;
+	font-size: 50px;
+	height: 450px;
+	width: 100%;
+	background-image:url(img/android.jpg) ;
+	margin-top: 20px;
+	border-radius: 20px;
+	text-align: center;
+	color: white;
+}
+.voc{
+	font-size: 30px;
+	height: 500px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	background-color: rgba(3, 137, 255, 0.5);
+	border-radius: 20px;
+	backdrop-filter: blur(5px);
+
+}
+h1.voc{
+	font-size: 40px;
+}
+
+
+/*ментори*/
+.megi{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+.block{
+	margin-top: 40px;
+}
+
+.block1{
+	text-align: center;
+	margin-left: 190px;
+	height: 200px;
+	width: 400px;
+	display: inline-block;
+	border-radius: 20px;
+	background-color: rgba(3, 137, 255, 0.5);
+	transition: height 0.5s;
+	overflow: hidden;
+	backdrop-filter: blur(5px);
+
+}
+.block2{
+	text-align: center;
+	height: 200px;
+	width: 400px;
+	margin-left: 160px;
+	display: inline-block;
+	border-radius: 20px;
+	background-color: rgba(3, 137, 255, 0.5);
+	transition: height 0.5s;
+	overflow: hidden;
+	backdrop-filter: blur(5px);
+}
+.circle{
+	margin-left: 150px;
+	margin-top: 20px;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	background-color: white;
+	transition: border-radius 0.5s;
+	overflow: hidden;
+
+}
+.circle:hover{
+	border-radius: 20px;
+
+}
+.block1:hover{
+	height: 350px;
+
+}
+.block2:hover{
+	height: 350px;
+
+}
+/*курси*/
+.block1-1{
+	color: white;
+	align-content: center;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	background-color: rgba(3, 137, 255, 0.5);
+	border-radius: 10px;
+	overflow: hidden;
+	transition: height 0.5s;
+	backdrop-filter: blur(5px);
+
+}
+
+.block1-1-1{
+	color: white;
+	align-content: center;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	background-color: rgba(3, 137, 255, 0.5);
+	border-radius: 10px;
+	overflow: hidden;
+	transition: height 0.5s;
+	backdrop-filter: blur(5px);
+}
+.block1-1-1:hover{
+	height: 150px;
+}
+
+.block1-1p{
+	font-size: 20px;
+
+}
+.block1-1b{
+	margin-top: 10px;
+  border: none;
+  background-color: rgba(3, 137, 255, 0.5);
+  color: white;
+  height: 40px;
+  width: 180px;
+  transition: background-color 0.5s;
+  cursor: pointer;
+  border-radius: 20px;
+}
+a:link{
+text-decoration-style: none;
+	text-decoration: none;
+}
+.block1-1b:hover{
+  background-color: rgba(17, 17, 148, 100);
+}
+
+.block1-2{
+	margin-top: 20px;
+	color: white;
+	align-content: center;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	background-color: rgba(3, 137, 255, 0.5);
+	border-radius: 10px;
+	overflow: hidden;
+	transition: height 0.5s;
+	backdrop-filter: blur(5px);
+}
+
+.block1-3{
+	margin-top: 20px;
+	color: white;
+	align-content: center;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	background-color: rgba(3, 137, 255, 0.5);
+	border-radius: 10px;
+	overflow: hidden;
+	transition: height 0.5s;
+	backdrop-filter: blur(5px);
+}
+
+.block1-1:hover{
+	height: 350px;
+
+}
+.block1-2:hover{
+	height: 350px;
+
+}
+.block1-3:hover{
+	height: 350px;
+	}
+/*карта*/
+.map1{
+	text-align: center;
+	color: white;
+}
+iframe{
+	margin-left: 20px;
+}
+footer{
+	font-size: 10px;
+	color: white;
+	height: 200px;
+	width: 100%;
+	margin-top: 20px;
+	padding-top: 30px;
+	background-color: rgba(3, 137, 255, 0.5);
+	text-align: center;
+	backdrop-filter: blur(5px);
+}
+/*навігація*/
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(3, 137, 255, 0.5);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  backdrop-filter: blur(5px);
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
